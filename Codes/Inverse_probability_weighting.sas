@@ -1,17 +1,17 @@
 /*Set up the library where you store the datasets*/
-libname sas "C:\Users\henry\OneDrive\Desktop\Research\Programming\SAS\PS method workshop_2025\sample_output";
+libname sas "yourpath\sample_output";
 
 
 /***************************************************************************************************/
 /*Step 1: Calculating the Propensity Score with imputed data*/
-proc import datafile = "C:\Users\henry\Downloads\PS method\Data_dictionary_sample.xlsx"
+proc import datafile = "yourpath\Data_dictionary_sample.xlsx"
 	out = sas.cov dbms = xlsx replace;
 	getnames = yes;
 	sheet = "DEMO";
 run;
 
 
-proc import datafile = "C:\Users\henry\Downloads\PS method\sample_dataset.xlsx"
+proc import datafile = "yourpath\sample_dataset.xlsx"
 	out = sas.sample dbms = xlsx replace;
 	getnames = yes;
 	sheet = "sample";
