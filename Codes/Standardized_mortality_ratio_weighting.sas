@@ -120,6 +120,4 @@ proc logistic data = Final_dataset_ps_smrw_1_99;
 	weight smrw_p1_99;
 run;
 /*Standardized mortality ratio weighting: OR 0.830(0.720-0.958)*/
-
-
  

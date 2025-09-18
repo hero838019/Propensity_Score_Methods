@@ -165,5 +165,3 @@ proc logistic data = Final_dataset_ps_sw_1_99;
 run;
 /*Stabilized IP weighting with truncation: OR 0.793(0.695-0.904)*/
 
-
-
