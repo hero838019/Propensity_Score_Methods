@@ -74,4 +74,3 @@ proc logistic data=sas.Sample_ps;
    model MACE_OUTCOME = EXPOSE denom;
 run;
 /*Covariate adjustment using PS: OR 0.824(0.709-0.956)*/
-

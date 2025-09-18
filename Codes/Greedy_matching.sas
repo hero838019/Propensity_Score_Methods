@@ -101,4 +101,3 @@ proc logistic data=Final_dataset_ps_greedy_match_m;
    strata _MatchID;
 run;
 /*Greedy matching: OR 0.853(0.723-1.006)*/
-
